@@ -1,5 +1,4 @@
 :root{
-    --main-coler:#ff206e;
     font-size: 16px;
 }
 @media (max-width: 576px) { 
@@ -276,3 +275,57 @@ h4,h5,h6{
     width: 2rem;
 }
 /* end clents div */
+.color-option{
+    
+    width: fit-content;
+    display: flex;
+    position: fixed;
+    top: 40%;
+    
+    z-index: 99999999999;
+}
+.color-box{
+    position: relative;
+    background-color: whitesmoke;
+    text-align: center;
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    border-radius: .325rem;
+    -webkit-border-radius: .325rem;
+    -moz-border-radius: .325rem;
+    -ms-border-radius: .325rem;
+    -o-border-radius: .325rem;
+    color: var(--main-coler);
+    height: fit-content;
+}
+.color-box .title{
+    margin-bottom: 0;
+}
+.colors{
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+.color{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: .5rem;
+    border-radius: .325rem;
+    -webkit-border-radius: .325rem;
+    -moz-border-radius: .325rem;
+    -ms-border-radius: .325rem;
+    -o-border-radius: .325rem;
+}
+.color-option .icon{
+    background-color: whitesmoke;
+    padding: .5rem 1rem;
+    font-size: 1.5rem;
+    height: fit-content;
+    color: var(--main-coler);
+    border-radius: .325rem;
+    -webkit-border-radius: .325rem;
+    -moz-border-radius: .325rem;
+    -ms-border-radius: .325rem;
+    -o-border-radius: .325rem;
+}
